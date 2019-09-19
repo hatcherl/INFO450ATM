@@ -31,7 +31,7 @@ int main()
 			//cin.clear() clears the error flag so I/O will work properly
 			//cin.ignore(numeric_limits<streamsize>::max(), '\n') ignores the maximum input before the null.
 			//cin.ignore(num, '\n') skips to the next newline while ignoring the num of characters before the null.
-
+			//I initially used cin.ignore(num, '\n') but I switched to cin.ignore(numeric_limits<streamsiz...
 			cout << "Your request is for " << wAmount << " dollars." << endl;
 
 			if (wAmount < 1 || wAmount > 300) //If the amount is less than $1 or more than $300
