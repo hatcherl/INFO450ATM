@@ -84,7 +84,8 @@ void getWithdrawal(int amount)
 
 	cout << "You're receiving:" << endl; // This line and the following lines print out the number of each bill
 
-	if (output > 0)
+	//For statements that will make it so that if there is 0 of a bill type, it won't say "there is 0 of ___ bills."
+	if (output > 0) 
 	{
 		cout << output << " $50 bills" << endl;
 	}
